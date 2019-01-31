@@ -13,7 +13,12 @@ function nowServing(deliline){
   name = deliline.shift()
   return "Currentlyserving " +name+"."
 }
-
+function currentLine(katzDeliLine){
+  if (katzDeliLine.length ==0) {
+    return "The line is currently empty."
+    
+  }
+}
 
 // var katzDeliLine =[]
 //
