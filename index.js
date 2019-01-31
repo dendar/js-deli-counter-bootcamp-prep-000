@@ -24,7 +24,7 @@ function currentLine(katzDeliLine){
   }
   return
 }
-
+}
 // var katzDeliLine =[]
 //
 // function takeANumber(katzDeli, name){
