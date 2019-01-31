@@ -22,9 +22,10 @@ function currentLine(katzDeliLine){
   for(let i = 1; i<katzDeliLine.length; i++){
     myString+= `, ${i+1}. ${katzDeliLine[i]}`
   }
+}
   return
 }
-}
+
 // var katzDeliLine =[]
 //
 // function takeANumber(katzDeli, name){
