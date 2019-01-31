@@ -1,5 +1,5 @@
 function takeANumber(katzDeliLine, name){
-  var position =katzDeliLine.lenght+1 
+  var position =katzDeliLine.lenght+1
   katzDeliLine.push(name)
   return "Welcome, "+name+". You are number" +position+" in line." 
 }
@@ -7,12 +7,12 @@ function takeANumber(katzDeliLine, name){
 
 
 // var katzDeliLine =[]
-// 
+//
 // function takeANumber(katzDeli, name){
 //   line.push(`${name}`)
 //   return(`Welcome , ${name}. You are ${katzDeli.lenght} im line.`)
 // }
-// 
+//
 // function nowServing(katzDeli){
 //   let i =0
 //   while(i<katzDeli.length){
@@ -24,10 +24,10 @@ function takeANumber(katzDeliLine, name){
 //   else{
 //     return(`Currently serving ${katzDeli.shift()}.`)
 //   }
-// 
-// 
+//
+//
 // var line =[]
-// 
+//
 // function currentLine(katzDeli){
 //   let i = 0
 //   while(i<katzDeli.length){
