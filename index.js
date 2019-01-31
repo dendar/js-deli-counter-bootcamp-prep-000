@@ -7,7 +7,7 @@ function takeANumber(katzDeliLine, name){
 function nowServing(deliline){
   var name
   if (deliline.length ==0) {
-    retun "there is nobody waiting to be served!"
+    return "there is nobody waiting to be served!"
 
   }
   name = deliline.shift()
